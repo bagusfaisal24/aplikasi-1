@@ -1,0 +1,18 @@
+app:
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/microservice"
+    username: "admin"
+    password: "123"
+    driverClassName: org.postgresql.Driver
+flyway:
+  enabled: true
+  baselineOnMigrate: true
+  url: jdbc:postgresql://localhost:5432/microservice
+  user: admin
+  password: 123
+  validateOnMigrate: false
+server:
+  port: 8081
+
+

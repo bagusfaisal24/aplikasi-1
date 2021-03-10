@@ -1,0 +1,5 @@
+CREATE TABLE  pegawai (
+    id SERIAL PRIMARY KEY NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    alamat VARCHAR(250) NOT NULL
+);
